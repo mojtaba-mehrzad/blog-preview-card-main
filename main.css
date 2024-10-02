@@ -27,8 +27,8 @@ main{
     align-items: flex-start;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    padding: 15px;
-    width: 280px;
+    padding: 17px;
+    width: 320px;
     box-shadow: 7px 7px 3px rgba(0, 0, 0, 100);
     border: 1px solid black;
     
@@ -37,11 +37,52 @@ main{
 
 .tag{
     background-color: hsl(47, 88%, 63%);
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin: 15px 0px;
+    font-weight: 700;
+}
+
+.date{
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: small;
+    color: hsl(0, 0%, 7%);
+}
+
+.subject{
+    font-weight: 800;
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+.description{
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: smaller;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.profile-img img{
+    width: 30px;
+}
+
+.profile-name{
+    font-weight: 800;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 5px;
 }
 
 .banner img{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 footer{
     margin-top: 10px;
